@@ -81,7 +81,13 @@ h1
     font-size: x-large;
     font-weight: 400;
     margin-bottom: 20px;
-    line-height: 1;
+    line-height: 1.1;
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: large;
+    }
 }
 
 h2
@@ -105,4 +111,10 @@ a:hover
 footer
 {
     margin: 40px 0;
+    text-align: center;
+}
+
+footer p
+{
+    margin-bottom: 18px;
 }
