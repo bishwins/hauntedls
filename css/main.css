@@ -81,7 +81,7 @@ h1
     font-size: x-large;
     font-weight: 400;
     margin-bottom: 20px;
-    line-height: normal;
+    line-height: 1;
 }
 
 h2
