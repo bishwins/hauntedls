@@ -1,10 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&display=swap');
 
 body
 {
-    font-family: "Varela Round", sans-serif;
+    font-family: "M PLUS Rounded 1c", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: darkslategray;
@@ -21,38 +19,78 @@ main
 header
 {
     text-align: center;
-}
-
-img
-{
-    width: 100%;
-}
-
-p.status
-{
-    color: hotpink;
-    font-size: small;
+    padding: 20px 0;
+    margin-bottom: 20px;
 }
 
 p.contact
 {
     text-align: center;
     font-size: x-large;
+
+}
+
+
+header img
+{
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 section
 {
-margin: 0 0 12px 0;
+margin-bottom: 12px;
 }
 
 section.script
 {
     background-color: GhostWhite;
-    padding: 10px 20px;
+    padding: 30px;
+    border-radius: 20px;
 }
 
-h1{font-size: xx-large;}
-h2{font-size: large; font-weight: bold;}
+section.complete
+{
+    background-color: hotpink;
+    color: black;
+}
+
+section.script p.status
+{
+    color: hotpink;
+    font-size: small;
+    margin-bottom: 0;
+}
+
+section.complete p.status
+{
+    color: white;
+    font-size: small;
+    margin-bottom: 0;
+}
+
+section.script p
+{
+    margin-bottom: 12px;
+}
+
+
+
+h1
+{
+    font-size: x-large;
+    font-weight: 400;
+    margin-bottom: 20px;
+    line-height: normal;
+}
+
+h2
+{
+    font-size: x-large;
+font-weight: 700;
+margin-bottom: 12px;
+
+}
 
 a
 {
@@ -62,4 +100,9 @@ a
 a:hover
 {
     text-decoration: none;
+}
+
+footer
+{
+    margin: 40px 0;
 }
